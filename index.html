@@ -219,74 +219,130 @@
       </div>
     </section>
 
-    <!-- PRICING -->
-    <section id="pricing" class="section">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Nos plans</h2>
-          <p>Un pricing adapté à toutes les envies.</p>
+   <!-- PRICING -->
+<section id="pricing" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Des offres alignées sur votre performance</h2>
+      <p>Vous n’achetez pas “un outil”. Vous mettez en place un système qui convertit.</p>
+    </div>
+
+    <div class="pricing">
+      <!-- STARTER -->
+      <article class="plan">
+        <div class="plan-head">
+          <h3>Starter</h3>
+          <p class="muted">Tester sans optimiser</p>
         </div>
 
-        <div class="toggle">
-          <button class="tbtn active" id="monthly">Mensuel</button>
-          <button class="tbtn" id="yearly">Annuel <span class="save">2 mois offerts</span></button>
+        <div class="price">
+          <span class="val">29</span>
+          <span class="unit">€ / mois</span>
         </div>
 
-        <div class="pricing">
-          <article class="plan">
-            <div class="plan-head">
-              <h3>Starter</h3>
-              <p class="muted">Pour démarrer proprement</p>
-            </div>
-            <div class="price">
-              <span class="val" data-month="49" data-year="490">49</span>
-              <span class="unit">€ / <span data-unit>mois</span></span>
-            </div>
-            <ul class="list">
-              <li>Flux preview → paiement → unlock</li>
-              <li>Logs & stats de base</li>
-              <li>Support standard</li>
-            </ul>
-            <a class="btn ghost full" href="#book">Book a demo</a>
-          </article>
-
-          <article class="plan featured">
-            <div class="badge">Best</div>
-            <div class="plan-head">
-              <h3>Pro</h3>
-              <p class="muted">Pour convertir et scaler</p>
-            </div>
-            <div class="price">
-              <span class="val" data-month="99" data-year="990">99</span>
-              <span class="unit">€ / <span data-unit>mois</span></span>
-            </div>
-            <ul class="list">
-              <li>Tout Starter</li>
-              <li>Mode “agence” (process + templates)</li>
-              <li>Automatisations & tags</li>
-            </ul>
-            <a class="btn primary full" href="#book">Book a demo</a>
-          </article>
-
-          <article class="plan">
-            <div class="plan-head">
-              <h3>Agency</h3>
-              <p class="muted">Sur mesure</p>
-            </div>
-            <div class="price">
-              <span class="val">Custom</span>
-              <span class="unit">/ devis</span>
-            </div>
-            <ul class="list">
-              <li>Multi-modèles / multi-flux</li>
-              <li>Onboarding + support prioritaire</li>
-              <li>Roadmap dédiée</li>
-            </ul>
-            <a class="btn ghost full" href="#book">Parler à l’équipe</a>
-          </article>
+        <div class="pill" style="margin-top:10px; display:inline-flex;">
+          + 17% de commission
         </div>
-      </div>
-    </section>
+
+        <ul class="list" style="margin-top:12px;">
+          <li>Parcours basique preview → paiement → unlock</li>
+          <li>Logs & stats essentiels</li>
+          <li>Support standard</li>
+          <li class="muted">Sans assistante custom</li>
+          <li class="muted">Sans automatisations avancées</li>
+        </ul>
+
+        <p class="tiny" style="margin-top:10px;">
+          ⚠️ Conçue pour tester. Devient volontairement peu rentable dès que vous vendez.
+        </p>
+
+        <a class="btn ghost full" href="https://t.me/monbotneo?start=starter" target="_blank" rel="noreferrer">
+          Continuer sur Telegram
+        </a>
+      </article>
+
+      <!-- PRO (RECOMMENDED) -->
+      <article class="plan featured">
+        <div class="badge">Recommandée</div>
+
+        <div class="plan-head">
+          <h3>Pro</h3>
+          <p class="muted">Gagner de l’argent sérieusement</p>
+        </div>
+
+        <div class="price">
+          <span class="val">0</span>
+          <span class="unit">€ / 3 mois</span>
+        </div>
+
+        <div class="muted" style="font-weight:800; margin-top:6px;">
+          puis <b style="color:rgba(255,255,255,.92);">7€ / mois</b>
+        </div>
+
+        <div class="pill" style="margin-top:10px; display:inline-flex;">
+          + 12% de commission
+        </div>
+
+        <ul class="list" style="margin-top:12px;">
+          <li>Tout Starter</li>
+          <li>Toutes les fonctionnalités NovaPulse</li>
+          <li>Assistante custom</li>
+          <li>Automatisations (relances, segmentation, upsell)</li>
+          <li>Support prioritaire</li>
+        </ul>
+
+        <p class="tiny" style="margin-top:10px;">
+          La commission finance l’infrastructure, la sécurité des paiements, la livraison auto et l’assistance continue.
+          <b>Nous gagnons quand vous gagnez.</b>
+        </p>
+
+        <a class="btn primary full" href="https://t.me/monbotneo?start=pro" target="_blank" rel="noreferrer">
+          Commencer gratuitement
+        </a>
+      </article>
+
+      <!-- AGENCY (EXIT) -->
+      <article class="plan">
+        <div class="plan-head">
+          <h3>Agency</h3>
+          <p class="muted">Achat du système (exit)</p>
+        </div>
+
+        <div class="price">
+          <span class="val">Sur devis</span>
+          <span class="unit"></span>
+        </div>
+
+        <div class="pill" style="margin-top:10px; display:inline-flex;">
+          0€ / mois • 0% commission
+        </div>
+
+        <ul class="list" style="margin-top:12px;">
+          <li>Achat du système NovaPulse (paiement unique)</li>
+          <li>Indépendance totale</li>
+          <li>Usage libre</li>
+          <li class="muted">Réservé aux agences structurées</li>
+        </ul>
+
+        <p class="tiny" style="margin-top:10px;">
+          Offre réservée : sortie complète de l’écosystème NovaPulse.
+        </p>
+
+        <a class="btn ghost full" href="https://t.me/monbotneo?start=agency" target="_blank" rel="noreferrer">
+          Parler à l’équipe
+        </a>
+      </article>
+    </div>
+
+    <!-- Mini comparatif -->
+    <div class="section-head" style="margin-top:22px;">
+      <p class="muted" style="margin:0;">
+        Astuce : si vous vendez déjà, <b style="color:rgba(255,255,255,.92);">Pro</b> est presque toujours le meilleur choix.
+      </p>
+    </div>
+  </div>
+</section>
+
 
     <!-- FAQ -->
     <section id="faq" class="section">
