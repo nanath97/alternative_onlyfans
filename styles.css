@@ -330,3 +330,65 @@ h1{
   .feature-grid{grid-template-columns:1fr}
   .proof-stats{grid-template-columns:1fr}
 }
+.mini-videos {
+  margin-top: 60px;
+}
+
+.mini-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 1.6rem;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.mini-card {
+  background: rgba(255,255,255,0.03);
+  border-radius: 14px;
+  padding: 12px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.mini-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.mini-video {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.mini-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.mini-label {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .mini-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .mini-grid {
+    grid-template-columns: 1fr;
+  }
+}
